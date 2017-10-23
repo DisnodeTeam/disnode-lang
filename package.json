@@ -1,6 +1,6 @@
 {
   "name": "disnode-lang",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Language Pack system for our Discord Bots",
   "main": "index.js",
   "scripts": {
