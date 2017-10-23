@@ -1,0 +1,22 @@
+{
+  "name": "disnode-lang",
+  "version": "0.1.0",
+  "description": "A Language Pack system for our Discord Bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DisnodeTeam/disnode-lang.git"
+  },
+  "author": "FireGamer3 (Garrett Nicholas)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DisnodeTeam/disnode-lang/issues"
+  },
+  "homepage": "https://github.com/DisnodeTeam/disnode-lang#readme",
+  "dependencies": {
+    "disnode-logger": "^0.1.1"
+  }
+}
