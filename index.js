@@ -7,10 +7,11 @@ class Lang {
   }
   getPack(lang, pack){
     try {
-      logger.Info("Lang","getPack","Attempt to get pack: " + lang + "/" + pack);
       return require(this.dir + "/lang/" + lang + "/" + pack);
     } catch (e) {
       logger.Error("Lang","getPack","Error when getting pack: " + lang + "/" + pack + "  ::  " + e);
+    }finally {
+      delete require.cache[require.resolve(this.dir + "/lang/" + lang + "/" + pack)];
     }
   }
   getSupportedLanguages(cb){
